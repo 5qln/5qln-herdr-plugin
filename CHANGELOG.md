@@ -26,3 +26,19 @@ this file is the short form.
 - `cell.layout.json` / `cell.yaml` aligned to R4: podium command relative, every pane
   living in the ε node's directory.
 - `ADDRESS.md`, `README.md`, `LICENSE`, `.gitignore`, `nodes/_/cell.node.json` added.
+
+## 2026-08-25 — live truth after the restart + first drill session
+
+- **Podium path fixed (host, non-destructive):** after the 08-25 `server.live_handoff`
+  restart the podium's pane cwd no longer carried the node dir, so the v4 relative watch
+  (`watch -n 2 cat ./question.md`) broke and the podium rendered "no such file or
+  directory". Fix: `/home/deploy/the-cell/question.md` is now a symlink →
+  `nodes/_/question.md`. The centre renders truthfully again.
+- **Spaces renumbered by the restart:** `~` = `w7`, `the-cell` = `w8` (previously w1/w2).
+  The child spaces `G`/`GG` (previously w5/w6) did NOT survive the handoff — only two
+  spaces remain. Re-create children only when a real descent is wanted.
+- **Keybindings verified live** (`Ctrl+b ?` is the authoritative map): move focus =
+  `h`/`j`/`k`/`l` + arrows; zoom = `z` (zooms the focused pane); detach = `q`. The
+  earlier guide's `w` (workspace navigation) did not open a switcher on this build.
+- **First drill session (Phase 1, H):** full orbit walked centre → G → Q → P → V →
+  centre, zoom in/out mastered. Drill ladder: `wiki/projects/the-cell/DRILL-LADDER.md`.
