@@ -1,0 +1,20 @@
+# runtime state — never committed
+state/
+
+# centres are human-planted; the repo ships no question and none is ever committed
+**/question.md
+
+# python
+__pycache__/
+*.pyc
+
+# credentials / environment
+.env
+*.env
+
+# backups
+*.bak
+*.v1.bak
+
+# logs
+*.log

@@ -1,0 +1,210 @@
+#!/usr/bin/env python3
+"""cell-attest — record the human's attestation of the desk standing at the gate.
+
+LAW (maturation-log 001 · SEAL-STRICTNESS, his words: "for a start its ok that i need to
+be at the keyboard"): this refuses to run unless stdin AND stdout are a real TTY. An
+attestation typed by a machine is not an attestation. plugin.action.invoke over the
+socket — by me, by the sibling, by Pi — reaches only this refusal. No flag, no env var,
+no override path.
+
+WHAT IT WRITES, AND WHERE
+  state/gates.jsonl only — one append-only JSON line per attestation.
+  It NEVER writes question.md. The question is his, planted by his hands (cell-plant).
+  It records the question's sha256, not its text: the attestation is bound to the exact
+  question that stood at that moment, without the gate log becoming a second copy of
+  the centre.
+
+USAGE
+  cell-attest            → resolves the desk from the invocation context (run it IN the desk's pane)
+  cell-attest G|Q|P|V    → names the desk explicitly, resolved by label inside the cell workspace
+
+WHY THE ARGUMENT EXISTS: the context path depends on herdr exporting HERDR_PANE_ID (or the plugin
+context JSON) into the pane's shell. That holds for a plugin-invoked action; it does NOT hold in a
+plain SSH session, and Amihai works from an iPad over SSH. Without the argument, his own hands would
+be the one path that could not reach this command — which would make the seal a wall instead of a
+door. The TTY guard is unchanged: the argument says WHICH desk, never WHO is typing.
+
+v2 (§B / R4): the centre path is NODE-LOCAL, derived from this script's own location
+(bin → plugin → cell root), never a hardcoded absolute. The node is read from
+nodes/_/cell.node.json; the workspace is found by the node's MIRROR LABEL (the word, or
+for ε the reading — ADDRESS.md §4), so a renamed or missing declaration is a refusal,
+not a guess. The gate entry records the node word alongside the question's sha256.
+
+Exit codes
+  0  attestation recorded
+  2  no desk could be resolved (no argument and nothing in the invocation context)
+  4  REFUSED: no human TTY (a machine tried to attest)
+  5  aborted by the human (empty word) — nothing recorded
+  6  a herdr call failed — nothing recorded
+  7  REFUSED: the target is the podium (the centre is not a gate) or lies outside the cell
+  8  REFUSED: no cell.node.json — the node is undeclared (no default, no fallback)
+"""
+from __future__ import annotations
+
+import hashlib
+import json
+import os
+import sys
+import time
+
+sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
+from _cell_api import CellApiError, call, context, state_dir  # noqa: E402
+
+DESKS = ("G", "Q", "P", "V")
+CELL_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+NODE_DIR = os.path.join(CELL_ROOT, "nodes", "_")  # the live cell is ε of this reading
+QUESTION = os.path.join(NODE_DIR, "question.md")
+
+
+def load_node_word() -> tuple[str, str]:
+    """(word, mirror label) from the node declaration. Refuse if undeclared — no fallback."""
+    path = os.path.join(NODE_DIR, "cell.node.json")
+    try:
+        with open(path, encoding="utf-8") as handle:
+            data = json.load(handle)
+        word = data["word"]
+        reading = data.get("reading") or ""
+    except (OSError, json.JSONDecodeError, KeyError, TypeError) as exc:
+        print(f"REFUSED: cannot read a declared word from {path}: {exc}", file=sys.stderr)
+        print("No default node, no fallback (ADDRESS.md §4).", file=sys.stderr)
+        raise SystemExit(8)
+    return (word, word or reading)
+
+
+def require_human() -> None:
+    if not sys.stdin.isatty() or not sys.stdout.isatty():
+        print("REFUSED: cell-attest needs a human at a keyboard.", file=sys.stderr)
+        print("stdin/stdout is not a TTY, so this invocation is a machine's.", file=sys.stderr)
+        print("The attestation is Amihai's to type, in the pane, with his hands.", file=sys.stderr)
+        raise SystemExit(4)
+
+
+def cell_workspace_id(mirror_label: str) -> str | None:
+    """The cell's workspace is found by the node's MIRROR label — never a hardcoded constant."""
+    for workspace in call("workspace.list").get("workspaces", []):
+        if workspace.get("label") == mirror_label:
+            return workspace.get("workspace_id")
+    return None
+
+
+def resolve_pane(argv: list[str], mirror_label: str) -> dict:
+    """The desk named on the command line, else the one this invocation came from."""
+    if len(argv) > 1:
+        wanted = argv[1].strip().upper()
+        if wanted not in DESKS:
+            print(f"'{argv[1]}' is not a desk. Use one of {DESKS}, or no argument inside a desk pane.", file=sys.stderr)
+            raise SystemExit(2)
+        cell_id = cell_workspace_id(mirror_label)
+        if cell_id is None:
+            print(f"No workspace labelled '{mirror_label}' is standing — nothing to attest.", file=sys.stderr)
+            raise SystemExit(2)
+        for pane in call("pane.list", {"workspace_id": cell_id}).get("panes", []):
+            if (pane.get("label") or "").strip() == wanted:
+                return pane
+        print(f"No pane labelled '{wanted}' in the cell ({cell_id}).", file=sys.stderr)
+        raise SystemExit(2)
+
+    ctx = context()
+    pane_id = (
+        ctx.get("focused_pane_id")
+        or ctx.get("target_pane_id")
+        or os.environ.get("HERDR_PANE_ID")
+        or os.environ.get("HERDR_ACTIVE_PANE_ID")
+    )
+    if not pane_id:
+        print(
+            "Cannot tell which desk stands at the gate: no pane in the invocation context.",
+            file=sys.stderr,
+        )
+        print("Name it instead:  cell-attest G   (or Q, P, V)", file=sys.stderr)
+        raise SystemExit(2)
+    return call("pane.get", {"pane_id": pane_id}).get("pane", {})
+
+
+def question_fingerprint() -> tuple[str, int, str]:
+    try:
+        with open(QUESTION, "rb") as handle:
+            raw = handle.read()
+    except OSError:
+        return ("", 0, "(no question.md — the podium is empty)")
+    first = ""
+    for line in raw.decode("utf-8", "replace").splitlines():
+        if line.strip():
+            first = line.strip()
+            break
+    return (hashlib.sha256(raw).hexdigest(), len(raw), first or "(question.md is blank)")
+
+
+def main(argv: list[str]) -> int:
+    require_human()
+
+    word, mirror_label = load_node_word()
+    pane = resolve_pane(argv, mirror_label)
+    desk = (pane.get("label") or "").strip()
+    pane_id = pane.get("pane_id", "")
+    workspace_id = pane.get("workspace_id", "")
+
+    cell_id = cell_workspace_id(mirror_label)
+    if cell_id is None or workspace_id != cell_id:
+        print(
+            f"REFUSED: pane {pane_id} is in workspace {workspace_id}, which is not the cell"
+            f" ({cell_id or 'no workspace labelled ' + mirror_label}).",
+            file=sys.stderr,
+        )
+        return 7
+    if desk not in DESKS:
+        # STRUCTURAL, not nominal: in a 4+1 cell the centre is simply the pane that is not one of
+        # the four desks. Twice now a name-based test would have broken here — first `label ==
+        # "podium"` (the score's interim pane), then "unlabelled" (my second guess). The live truth,
+        # verified in the post-swap export: the plugin podium's label is derived from the manifest
+        # pane's `title`, so it reads "THE QUESTION". Matching any of those literals is a bet on a
+        # string; counting corners is a bet on the form. The form is the thing that does not move.
+        print(f"REFUSED: pane {pane_id} ({desk or 'unlabelled'}) is the centre, not a gate.", file=sys.stderr)
+        print("The centre holds the question. Stand at a desk — G, Q, P or V — to attest.", file=sys.stderr)
+        return 7
+
+    digest, size, headline = question_fingerprint()
+    print(f"  question : {headline}")
+    print(f"  sha256   : {digest[:16] or '(none)'}  ({size} bytes)")
+    print(f"  desk     : {desk}   pane {pane_id}   status {pane.get('agent_status', 'unknown')}")
+    print("")
+    print("Attesting means: what stands at this desk is what you meant. Your word, one line.")
+    print("Empty line aborts and records nothing.")
+    try:
+        note = input(f"attest {desk} > ").strip()
+    except (EOFError, KeyboardInterrupt):
+        print("\naborted — nothing recorded.", file=sys.stderr)
+        return 5
+    if not note:
+        print("aborted — nothing recorded.", file=sys.stderr)
+        return 5
+
+    entry = {
+        "ts_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "node_word": word,
+        "node_mirror": mirror_label,
+        "desk": desk,
+        "pane_id": pane_id,
+        "workspace_id": workspace_id,
+        "agent_status": pane.get("agent_status"),
+        "agent": pane.get("agent"),
+        "question_sha256": digest,
+        "question_bytes": size,
+        "note": note,
+        "tty": os.ttyname(sys.stdin.fileno()) if sys.stdin.isatty() else None,
+        "by": "human-at-keyboard",
+    }
+    path = os.path.join(state_dir(), "gates.jsonl")
+    with open(path, "a", encoding="utf-8") as handle:
+        handle.write(json.dumps(entry, separators=(",", ":"), sort_keys=True) + "\n")
+    print(f"\nrecorded → {path}")
+    print(json.dumps(entry, indent=1, sort_keys=True))
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        sys.exit(main(sys.argv))
+    except CellApiError as exc:
+        print(f"STOP: {exc} — nothing recorded.", file=sys.stderr)
+        sys.exit(6)
