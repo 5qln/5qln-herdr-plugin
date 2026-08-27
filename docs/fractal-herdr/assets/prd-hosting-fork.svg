@@ -8,7 +8,7 @@
 <rect x="140" y="235" width="2520" height="175" rx="22" fill="#10141F" stroke="#4CBF8E" stroke-width="3"/>
 <text x="170" y="283" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="start">TRUE IN ALL THREE: the conductor drives herdr's socket from outside · herdr never needs to recognize the host · attestation stays human-TTY only</text>
 <rect x="120" y="470" width="780" height="650" rx="22" fill="#141926" stroke="#5B8DEF" stroke-width="3"/>
-<text x="155" y="525" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">A — dsh-hosted   (recommended)</text>
+<text x="155" y="525" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">A — dsh-hosted   ✓ DECIDED 2026-08-27</text>
 <text x="155" y="585" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#5B8DEF" text-anchor="start">how it works</text>
 <text x="155" y="635" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• dsh session or @deepseek-ai/dsh-headless</text>
 <text x="155" y="669" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• relay.py speaks the web UI's HTTP RPC (127.0.0.1:3080</text>

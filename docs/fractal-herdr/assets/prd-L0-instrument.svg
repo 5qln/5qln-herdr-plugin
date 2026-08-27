@@ -46,7 +46,8 @@
 <text x="170" y="1148" font-family="DejaVu Sans" font-size="29px" font-weight="700" fill="#F2F5FA" text-anchor="start">THE LEDGER — state/gates.jsonl · hash-chained · structure, never content</text>
 <rect x="140" y="1280" width="2520" height="245" rx="22" fill="#10141F" stroke="#A78BFA" stroke-width="3" stroke-dasharray="12 9"/>
 <text x="170" y="1328" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">STILL OPEN — NOT DECIDED AT THIS LEVEL</text>
-<text x="170" y="1373" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">who hosts the conductor (dsh / Pi / Hermes)</text>
-<text x="170" y="1415" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">scheduling policy for parallel cells</text>
-<text x="170" y="1457" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the one human act that resolves a thousand held gates</text>
+<text x="170" y="1373" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">scheduling policy for parallel cells (D5: v1 is one cell + descent)</text>
+<text x="170" y="1415" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the one human act that resolves a thousand held gates (D8 — Amihai's)</text>
+<text x="170" y="1457" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">how a rebuild is recorded so the spark stays visible at a run's end</text>
+<text x="140" y="1580" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#E3B341" text-anchor="start">DECIDED 2026-08-27 — D1: the conductor is dsh-hosted · D2: the ledger is state/gates.jsonl</text>
 </svg>
