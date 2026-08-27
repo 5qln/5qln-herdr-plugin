@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1500" viewBox="0 0 2800 1500">
+<rect width="2800" height="1500" fill="#0B0E14"/>
+<defs><marker id="arr" markerWidth="14" markerHeight="14" refX="11" refY="5" orient="auto"><path d="M 0 0 L 12 5 L 0 10 z" fill="#9AA3B5"/></marker></defs>
+<defs><filter id="soft"><feGaussianBlur stdDeviation="2"/></filter></defs>
+<text x="140" y="105" font-family="DejaVu Sans" font-size="64px" font-weight="700" fill="#F2F5FA" text-anchor="start">THE GATE CHAIN — the sole phase authority</text>
+<text x="140" y="166" font-family="DejaVu Sans" font-size="34px" font-weight="400" fill="#9AA3B5" text-anchor="start">S─[x:X]→G─[y:Y]→Q─[z:Z]→P─[a:A]→V─[b:B]→next S</text>
+<text x="1400" y="1466" font-family="DejaVu Sans" font-size="26px" font-weight="400" fill="#6B7280" text-anchor="middle">FRACTAL HERDR PRD · pre-development · nothing here is attested except where marked</text>
+<rect x="180" y="300" width="360" height="180" rx="22" fill="#1A2233" stroke="#E3B341" stroke-width="3"/>
+<text x="360.0" y="348" font-family="DejaVu Sans" font-size="46px" font-weight="700" fill="#F2F5FA" text-anchor="middle">S</text>
+<rect x="700" y="300" width="360" height="180" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="880.0" y="348" font-family="DejaVu Sans" font-size="46px" font-weight="700" fill="#F2F5FA" text-anchor="middle">G</text>
+<rect x="1220" y="300" width="360" height="180" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="1400.0" y="348" font-family="DejaVu Sans" font-size="46px" font-weight="700" fill="#F2F5FA" text-anchor="middle">Q</text>
+<rect x="1740" y="300" width="360" height="180" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="1920.0" y="348" font-family="DejaVu Sans" font-size="46px" font-weight="700" fill="#F2F5FA" text-anchor="middle">P</text>
+<rect x="2260" y="300" width="360" height="180" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="2440.0" y="348" font-family="DejaVu Sans" font-size="46px" font-weight="700" fill="#F2F5FA" text-anchor="middle">V</text>
+<line x1="540" y1="390" x2="700" y2="390" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<text x="620.0" y="355" font-family="DejaVu Sans" font-size="24px" font-weight="700" fill="#9AA3B5" text-anchor="middle">x : X</text>
+<line x1="1060" y1="390" x2="1220" y2="390" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<text x="1140.0" y="355" font-family="DejaVu Sans" font-size="24px" font-weight="700" fill="#9AA3B5" text-anchor="middle">y : Y</text>
+<line x1="1580" y1="390" x2="1740" y2="390" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<text x="1660.0" y="355" font-family="DejaVu Sans" font-size="24px" font-weight="700" fill="#9AA3B5" text-anchor="middle">z : Z</text>
+<line x1="2100" y1="390" x2="2260" y2="390" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<text x="2180.0" y="355" font-family="DejaVu Sans" font-size="24px" font-weight="700" fill="#9AA3B5" text-anchor="middle">a : A</text>
+<path d="M 2440 480 L 2440 590 L 360 590 L 360 480" fill="none" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<text x="1400" y="520" font-family="DejaVu Sans" font-size="24px" font-weight="700" fill="#9AA3B5" text-anchor="middle">b : B</text>
+<text x="1400" y="555" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#9AA3B5" text-anchor="middle">next S = the parent's ∞0′</text>
+<rect x="140" y="650" width="2520" height="300" rx="22" fill="#10141F" stroke="#4CBF8E" stroke-width="3"/>
+<text x="170" y="698" font-family="DejaVu Sans" font-size="31px" font-weight="700" fill="#F2F5FA" text-anchor="start">EVERY GATE CARRIES THREE STATES</text>
+<rect x="190" y="755" width="700" height="135" rx="22" fill="#1A2233" stroke="#4CBF8E" stroke-width="3"/>
+<text x="220" y="803" font-family="DejaVu Sans" font-size="25px" font-weight="700" fill="#F2F5FA" text-anchor="start">attested (green)</text>
+<text x="220" y="848" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">— the human's word</text>
+<rect x="1050" y="755" width="760" height="135" rx="22" fill="#1A2233" stroke="#E3B341" stroke-width="3"/>
+<text x="1080" y="803" font-family="DejaVu Sans" font-size="24px" font-weight="700" fill="#F2F5FA" text-anchor="start">held-pending (gold)</text>
+<text x="1080" y="848" font-family="DejaVu Sans" font-size="20px" font-weight="400" fill="#9AA3B5" text-anchor="start">— waiting, a ledger state,</text>
+<text x="1080" y="877" font-family="DejaVu Sans" font-size="20px" font-weight="400" fill="#9AA3B5" text-anchor="start">never a permission</text>
+<rect x="1970" y="755" width="700" height="135" rx="22" fill="#1A2233" stroke="#475569" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="2000" y="803" font-family="DejaVu Sans" font-size="24px" font-weight="700" fill="#F2F5FA" text-anchor="start">mechanical (gray dashed)</text>
+<text x="2000" y="848" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#9AA3B5" text-anchor="start">— the agent forced it</text>
+<rect x="140" y="1000" width="2520" height="165" rx="22" fill="#10141F" stroke="#4CBF8E" stroke-width="3"/>
+<text x="170" y="1048" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="start">TWO LAWS: no gate opens without human validation · there is no second phase field competing with xyzab (the Q-skip fix)</text>
+<rect x="140" y="1210" width="2520" height="190" rx="22" fill="#10141F" stroke="#A78BFA" stroke-width="3" stroke-dasharray="12 9"/>
+<text x="170" y="1258" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">STILL OPEN</text>
+<text x="170" y="1303" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the exact record schema is the build seam</text>
+<text x="170" y="1345" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">descent: a gate that fails to lock becomes its own 4+1 cell</text>
+</svg>

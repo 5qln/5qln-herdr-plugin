@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1750" viewBox="0 0 2800 1750">
+<rect width="2800" height="1750" fill="#0B0E14"/>
+<defs><marker id="arr" markerWidth="14" markerHeight="14" refX="11" refY="5" orient="auto"><path d="M 0 0 L 12 5 L 0 10 z" fill="#9AA3B5"/></marker></defs>
+<defs><filter id="soft"><feGaussianBlur stdDeviation="2"/></filter></defs>
+<text x="140" y="105" font-family="DejaVu Sans" font-size="64px" font-weight="700" fill="#F2F5FA" text-anchor="start">THE CONDUCTOR — one state machine, three dialects of 'blocked'</text>
+<text x="140" y="166" font-family="DejaVu Sans" font-size="34px" font-weight="400" fill="#9AA3B5" text-anchor="start">it surfaces holds; it never resolves them</text>
+<text x="1400" y="1716" font-family="DejaVu Sans" font-size="26px" font-weight="400" fill="#6B7280" text-anchor="middle">FRACTAL HERDR PRD · pre-development · nothing here is attested except where marked</text>
+<rect x="160" y="350" width="420" height="165" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="370.0" y="398" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="middle">IDLE</text>
+<rect x="700" y="350" width="420" height="165" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="910.0" y="398" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="middle">HOLDING_ORIGIN</text>
+<text x="910.0" y="443" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#9AA3B5" text-anchor="middle">wait: human plants</text>
+<rect x="1240" y="350" width="420" height="165" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="1450.0" y="398" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="middle">WALKING</text>
+<text x="1450.0" y="443" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#9AA3B5" text-anchor="middle">cycle gates</text>
+<rect x="1780" y="350" width="420" height="165" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="1990.0" y="398" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="middle">DESCENDING</text>
+<text x="1990.0" y="443" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#9AA3B5" text-anchor="middle">zoom into a corner</text>
+<rect x="160" y="700" width="420" height="165" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="370.0" y="748" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="middle">SEEDING</text>
+<text x="370.0" y="793" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#9AA3B5" text-anchor="middle">next S</text>
+<rect x="700" y="700" width="420" height="165" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="910.0" y="748" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="middle">COMPOSING</text>
+<text x="910.0" y="793" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#9AA3B5" text-anchor="middle">V: B″ + ∞0′</text>
+<rect x="1240" y="700" width="420" height="165" rx="22" fill="#1A2233" stroke="#56C6D9" stroke-width="3"/>
+<text x="1450.0" y="748" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="middle">ATTESTED</text>
+<text x="1450.0" y="793" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#9AA3B5" text-anchor="middle">gate closed by the human</text>
+<rect x="1780" y="700" width="420" height="165" rx="22" fill="#1A2233" stroke="#E3B341" stroke-width="3"/>
+<text x="1990.0" y="748" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="middle">BLOCKED</text>
+<text x="1990.0" y="793" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#9AA3B5" text-anchor="middle">hold surfaced</text>
+<line x1="580" y1="432" x2="700" y2="432" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<line x1="1120" y1="432" x2="1240" y2="432" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<line x1="1660" y1="432" x2="1780" y2="432" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<line x1="1990" y1="515" x2="1990" y2="700" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<line x1="1780" y1="782" x2="1660" y2="782" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<line x1="1240" y1="782" x2="1120" y2="782" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<line x1="700" y1="782" x2="580" y2="782" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<line x1="370" y1="700" x2="370" y2="515" stroke="#9AA3B5" stroke-width="4" marker-end="url(#arr)"/>
+<text x="410" y="635" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#9AA3B5" text-anchor="start">back to IDLE / DONE</text>
+<rect x="2300" y="525" width="400" height="160" rx="22" fill="#1A2233" stroke="#A78BFA" stroke-width="3"/>
+<text x="2330" y="573" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#F2F5FA" text-anchor="start">herdr</text>
+<text x="2330" y="618" font-family="DejaVu Sans" font-size="17px" font-weight="400" fill="#9AA3B5" text-anchor="start">— agent_status: blocked</text>
+<text x="2330" y="642" font-family="DejaVu Sans" font-size="17px" font-weight="400" fill="#9AA3B5" text-anchor="start">(POLLED: hooks are</text>
+<text x="2330" y="666" font-family="DejaVu Sans" font-size="17px" font-weight="400" fill="#9AA3B5" text-anchor="start">recorders, not triggers)</text>
+<rect x="2300" y="690" width="400" height="140" rx="22" fill="#1A2233" stroke="#A78BFA" stroke-width="3"/>
+<text x="2330" y="738" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#F2F5FA" text-anchor="start">Pi</text>
+<text x="2330" y="783" font-family="DejaVu Sans" font-size="18px" font-weight="400" fill="#9AA3B5" text-anchor="start">— terminate:true or</text>
+<text x="2330" y="810" font-family="DejaVu Sans" font-size="18px" font-weight="400" fill="#9AA3B5" text-anchor="start">ctx.ui.confirm</text>
+<rect x="2300" y="850" width="400" height="145" rx="22" fill="#1A2233" stroke="#A78BFA" stroke-width="3"/>
+<text x="2330" y="898" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#F2F5FA" text-anchor="start">dsh</text>
+<text x="2330" y="943" font-family="DejaVu Sans" font-size="18px" font-weight="400" fill="#9AA3B5" text-anchor="start">— gate state</text>
+<text x="2330" y="970" font-family="DejaVu Sans" font-size="18px" font-weight="400" fill="#9AA3B5" text-anchor="start">held-pending</text>
+<line x1="2300" y1="605" x2="2200" y2="730" stroke="#9AA3B5" stroke-width="3" marker-end="url(#arr)"/>
+<line x1="2300" y1="760" x2="2200" y2="790" stroke="#9AA3B5" stroke-width="3" marker-end="url(#arr)"/>
+<line x1="2300" y1="922" x2="2200" y2="840" stroke="#9AA3B5" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="140" y="1025" width="2100" height="210" rx="22" fill="#10141F" stroke="#4CBF8E" stroke-width="3"/>
+<text x="170" y="1073" font-family="DejaVu Sans" font-size="28px" font-weight="700" fill="#F2F5FA" text-anchor="start">PERSISTENCE: re-arms from the ledger on restart, never from RAM (Pi forks tear extensions down)</text>
+<rect x="140" y="1245" width="2100" height="225" rx="22" fill="#10141F" stroke="#A78BFA" stroke-width="3" stroke-dasharray="12 9"/>
+<text x="170" y="1293" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">STILL OPEN</text>
+<text x="170" y="1338" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">poll interval and fairness across many cells</text>
+<text x="170" y="1380" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">how a thousand holds are presented as one field</text>
+</svg>

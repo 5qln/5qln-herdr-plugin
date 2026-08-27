@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1850" viewBox="0 0 2800 1850">
+<rect width="2800" height="1850" fill="#0B0E14"/>
+<defs><marker id="arr" markerWidth="14" markerHeight="14" refX="11" refY="5" orient="auto"><path d="M 0 0 L 12 5 L 0 10 z" fill="#9AA3B5"/></marker></defs>
+<defs><filter id="soft"><feGaussianBlur stdDeviation="2"/></filter></defs>
+<text x="140" y="105" font-family="DejaVu Sans" font-size="64px" font-weight="700" fill="#F2F5FA" text-anchor="start">WHO HOSTS THE CONDUCTOR — the fork</text>
+<text x="140" y="166" font-family="DejaVu Sans" font-size="34px" font-weight="400" fill="#9AA3B5" text-anchor="start">the shape is the same in all three; the cost and the risk differ</text>
+<text x="1400" y="1816" font-family="DejaVu Sans" font-size="26px" font-weight="400" fill="#6B7280" text-anchor="middle">FRACTAL HERDR PRD · pre-development · nothing here is attested except where marked</text>
+<rect x="140" y="235" width="2520" height="175" rx="22" fill="#10141F" stroke="#4CBF8E" stroke-width="3"/>
+<text x="170" y="283" font-family="DejaVu Sans" font-size="27px" font-weight="700" fill="#F2F5FA" text-anchor="start">TRUE IN ALL THREE: the conductor drives herdr's socket from outside · herdr never needs to recognize the host · attestation stays human-TTY only</text>
+<rect x="120" y="470" width="780" height="650" rx="22" fill="#141926" stroke="#5B8DEF" stroke-width="3"/>
+<text x="155" y="525" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">A — dsh-hosted   (recommended)</text>
+<text x="155" y="585" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#5B8DEF" text-anchor="start">how it works</text>
+<text x="155" y="635" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• dsh session or @deepseek-ai/dsh-headless</text>
+<text x="155" y="669" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• relay.py speaks the web UI's HTTP RPC (127.0.0.1:3080</text>
+<text x="155" y="703" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• — live now)</text>
+<text x="155" y="737" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• raw socket client for herdr (_cell_api.py,</text>
+<text x="155" y="771" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• herdr-api.py)</text>
+<text x="155" y="830" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#6B7280" text-anchor="start">cost / risk</text>
+<text x="155" y="880" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">RISK: dsh is developer-preview — breaking changes</text>
+<text x="155" y="912" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">COST: lowest — the gate machinery already lives here</text>
+<rect x="1010" y="470" width="780" height="650" rx="22" fill="#141926" stroke="#56C6D9" stroke-width="3"/>
+<text x="1045" y="525" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">B — Pi-hosted</text>
+<text x="1045" y="585" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#56C6D9" text-anchor="start">how it works</text>
+<text x="1045" y="635" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• a Pi process drives the socket via a TS extension</text>
+<text x="1045" y="669" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• pi2dsh can run Pi extensions inside dsh</text>
+<text x="1045" y="703" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• one runtime for lens and driver</text>
+<text x="1045" y="830" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#6B7280" text-anchor="start">cost / risk</text>
+<text x="1045" y="880" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">RISK: no inter-session bus; extensions torn down on</text>
+<text x="1045" y="912" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">fork</text>
+<text x="1045" y="944" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">COST: medium — state must live in the ledger</text>
+<rect x="1900" y="470" width="780" height="650" rx="22" fill="#141926" stroke="#475569" stroke-width="3" stroke-dasharray="12 9"/>
+<text x="1935" y="525" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">C — Hermes-hosted</text>
+<text x="1935" y="585" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#475569" text-anchor="start">how it works</text>
+<text x="1935" y="635" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• Hermes skills + cron watchdogs drive herdr-api.py</text>
+<text x="1935" y="669" font-family="DejaVu Sans" font-size="22px" font-weight="400" fill="#9AA3B5" text-anchor="start">• strongest tooling and memory today</text>
+<text x="1935" y="830" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#6B7280" text-anchor="start">cost / risk</text>
+<text x="1935" y="880" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">BLOCKER: herdr marks Hermes session-only — not a</text>
+<text x="1935" y="912" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">lifecycle authority</text>
+<text x="1935" y="944" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">BOUND: O5 — Hermes must not become the human's</text>
+<text x="1935" y="976" font-family="DejaVu Sans" font-size="21px" font-weight="400" fill="#6B7280" text-anchor="start">contact surface</text>
+<rect x="140" y="1190" width="2520" height="260" rx="22" fill="#10141F" stroke="#A78BFA" stroke-width="3" stroke-dasharray="12 9"/>
+<text x="170" y="1238" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">WHAT THE CHOICE HINGES ON</text>
+<text x="170" y="1283" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">who owns the ledger and the poll loop</text>
+<text x="170" y="1325" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">which host survives a restart unattended</text>
+<text x="170" y="1367" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">where the model spend lands</text>
+<text x="1400" y="1535" font-family="DejaVu Sans" font-size="28px" font-weight="700" fill="#E3B341" text-anchor="middle">Amihai decides — the drawing does not</text>
+</svg>

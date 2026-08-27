@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1650" viewBox="0 0 2800 1650">
+<rect width="2800" height="1650" fill="#0B0E14"/>
+<defs><marker id="arr" markerWidth="14" markerHeight="14" refX="11" refY="5" orient="auto"><path d="M 0 0 L 12 5 L 0 10 z" fill="#9AA3B5"/></marker></defs>
+<defs><filter id="soft"><feGaussianBlur stdDeviation="2"/></filter></defs>
+<text x="140" y="105" font-family="DejaVu Sans" font-size="64px" font-weight="700" fill="#F2F5FA" text-anchor="start">THE LEGO LAW — blocks are frozen, the toy is rebuilt</text>
+<text x="140" y="166" font-family="DejaVu Sans" font-size="34px" font-weight="400" fill="#9AA3B5" text-anchor="start">L1–L5: self-evolution is rebuilding, never mutation</text>
+<text x="1400" y="1616" font-family="DejaVu Sans" font-size="26px" font-weight="400" fill="#6B7280" text-anchor="middle">FRACTAL HERDR PRD · pre-development · nothing here is attested except where marked</text>
+<rect x="120" y="270" width="1220" height="590" rx="22" fill="#141926" stroke="#E3B341" stroke-width="3"/>
+<text x="150" y="318" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">THE BLOCKS — immutable, never edited in place</text>
+<text x="150" y="363" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the 4+1 cell · the five phases</text>
+<text x="150" y="415" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the gate chain (xyzab)</text>
+<text x="150" y="467" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the hold doctrine</text>
+<text x="150" y="519" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the membrane (human plants, human attests)</text>
+<text x="150" y="571" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the five guards L1–L4 + V∅</text>
+<text x="150" y="623" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">the sealed kernel</text>
+<text x="150" y="675" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">every attested brick — a new version is a NEW block</text>
+<rect x="1460" y="270" width="1220" height="590" rx="22" fill="#141926" stroke="#56C6D9" stroke-width="3"/>
+<text x="1490" y="318" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">THE TOY — the arrangement, rebuilt freely</text>
+<text x="1490" y="363" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">which lens sits at which desk</text>
+<text x="1490" y="421" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">which skills / tools / instructions are snapped in</text>
+<text x="1490" y="479" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">which sequence, which ensemble, which surface</text>
+<text x="1490" y="537" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">runtimes are today's blocks, not the architecture</text>
+<line x1="1280" y1="930" x2="1520" y2="930" stroke="#E3B341" stroke-width="8" marker-end="url(#arr)"/>
+<text x="1400" y="900" font-family="DejaVu Sans" font-size="22px" font-weight="700" fill="#E3B341" text-anchor="middle">SELF-EVOLUTION = author a new block (itself a cell run, attested) + rebuild the arrangement</text>
+<rect x="140" y="1010" width="2520" height="165" rx="22" fill="#10141F" stroke="#4CBF8E" stroke-width="3"/>
+<text x="170" y="1058" font-family="DejaVu Sans" font-size="28px" font-weight="700" fill="#F2F5FA" text-anchor="start">THE GUARD: an in-place edit of an attested block is corruption, not evolution — rejected outright</text>
+<rect x="140" y="1230" width="2520" height="245" rx="22" fill="#10141F" stroke="#A78BFA" stroke-width="3" stroke-dasharray="12 9"/>
+<text x="170" y="1278" font-family="DejaVu Sans" font-size="30px" font-weight="700" fill="#F2F5FA" text-anchor="start">STILL OPEN</text>
+<text x="170" y="1323" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">what the human attests: that the agent stayed ITSELF through the change</text>
+<text x="170" y="1369" font-family="DejaVu Sans" font-size="24px" font-weight="400" fill="#9AA3B5" text-anchor="start">how a rebuild is recorded so the spark is visible at the end of a month-long run</text>
+</svg>
