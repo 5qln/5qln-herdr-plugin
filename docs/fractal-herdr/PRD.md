@@ -10,8 +10,9 @@ source_documents:
   - "/home/deploy/fractal-engine/DESIGN.md · xyzab-one-flow.md"
   - "/home/deploy/Asdh5/research/{herdr,pi}-capability-map.md · canon-orchestration.md"
   - "/home/deploy/Asdh5/herdr-capability-map.md (protocol-20 schema reading, 91 methods)"
+canon_home: "5qln/5qln-herdr-plugin — docs/fractal-herdr/PRD.md (canon; every other copy is a mirror)"
 links:
-  - "REQUIREMENTS.md (private archive)"
+  - "[REQUIREMENTS.md](REQUIREMENTS.md)"
   - "[ORCHESTRATION-PROPOSALS.md](ORCHESTRATION-PROPOSALS.md)"
   - "[README.md](README.md)"
   - "`INDEX`"

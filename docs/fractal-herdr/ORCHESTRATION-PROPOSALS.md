@@ -1,16 +1,17 @@
 ---
-title: "Fractal Herder — Orchestration Proposals (the OPEN design surface)"
+title: "Fractal Herdr — Orchestration Proposals (the OPEN design surface)"
 created: 2026-08-25
 entry_type: proposals
 status: MACHINE PROPOSALS (K) — not canon, not doctrine; await H's attestation, line by line
 source: dsh session (workspace /home/deploy/Asdh5/fractal-herder) — body verbatim
+canon_home: "5qln/5qln-herdr-plugin — docs/fractal-herdr/ORCHESTRATION-PROPOSALS.md (canon; every other copy is a mirror)"
 links:
-  - "REQUIREMENTS.md (private archive)"
+  - "[REQUIREMENTS.md](REQUIREMENTS.md)"
   - "`THE-GAP-2026-08-25`"
   - "`2026-08-25-gqpnv-window-agents`"
 ---
 
-# Fractal Herder — Orchestration Proposals (the OPEN design surface)
+# Fractal Herdr — Orchestration Proposals (the OPEN design surface)
 
 **Status:** MACHINE PROPOSALS (K). Not canon, not doctrine, not yet requirements. Each is a
 concrete candidate for the four OPEN items named in `REQUIREMENTS.md` Part II/IV. The human
