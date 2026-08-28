@@ -480,3 +480,69 @@ every level; the aligner is one.
 behind the same desk-adapter interface as the four corners**. Nothing above the adapter may know whether the
 thing behind it is Pi or Hermes. That is D1's surviving clause doing its work, and it is the machine's
 commitment here.
+
+---
+
+# 6. HIS CORRECTION — what success in a phase actually is (2026-08-27, and it is the objective function)
+
+> *"You ignore the obvious: success in each phase is contextual **DECODING** of context to language and
+> **Compilation** of output `xyzab` — nothing is more actual then that. how to achieve it? that's what we
+> will optimize at agents level: instructions, skills, tools etc."*
+
+**The machine's reading of self-similarity was wrong.** It had read self-similarity as a *shape comparison
+between levels* — a verification heuristic. It is not. **Success in a phase is an operation:**
+
+1. **DECODE** the context into the language (5QLN's symbols and the phase's equation), *contextually* — this
+   is `D1_The_Decoder`, whose rules R1–R13 Appendix D leaves unchanged;
+2. **COMPILE** the phase's output symbol — `X` for S, `Y` for G, `Z` for Q, `A` for P, `B`/`B″`/`∞0′` for V
+   — this is `C1_The_Compiler`.
+
+**Self-similarity then follows rather than being tested for:** what repeats at every scale is *this same
+decode → compile operation*, in the same language, with the same five equations. That is what makes a level a
+*cell* rather than a sub-topic. It is also why D.12's drift checklist reads *"no decoding step omitted or
+reordered"* — the appendix was already pointing at it.
+
+## What this settles that was open
+
+- **The gate record IS the compiled output.** The gate letters `x y z a b` are the phase outputs `X Y Z A B`
+  lowercased (his word, already in `FACTS.md` → *The codex*). So a gate record's existence *is* the claim
+  that a compilation happened; `payload_ref` points at the decoded material behind it. The ledger was
+  already shaped for this.
+- **The desk bundle (P4b) now has an objective function.** A desk's `{instruction, skills, tool surface,
+  model}` is not optimised toward "good personality" in the abstract — it is optimised toward **decode
+  fidelity and compile fidelity**: how well that desk turns *this* context into the language, and the
+  language into its output symbol. That is measurable, comparable between bundles, and it is exactly what he
+  said the agent-level optimisation is for.
+- **The step mode gains its sharpest check:** at each step — *was there a lawful decoding of context into the
+  language, and a lawful compilation to the phase's output symbol?* Missing either is a failed phase even if
+  everything else looks orderly.
+- **The formation trail is the decoding, and now it is clear why that is not a stylistic preference:** a
+  transcript records the context; the trail must record what the context *decoded to*. Same statement as his
+  answer 3+4, now with the mechanism named.
+
+## Sources the machine does not yet hold
+
+Appendix D says it was *"Compiled from `L1_The_Language.md`, `D1_The_Decoder.md`, `C1_The_Compiler.md`
+(April 2026)"*. The machine holds the codex page and Appendix D, **but not the Decoder's R1–R13 or the
+Compiler**. Since success is now defined as decode + compile, **those two documents are load-bearing** and
+should be obtained before the step mode's semantic checks are written. → planted in the next-session prompt.
+
+---
+
+# STATUS — his word, 2026-08-27: **"decided!"**
+
+Today's answers enter the **DECIDED** series (product decisions, not attestations, per §13.1). Numbering is
+bookkeeping and his to renumber:
+
+| # | Decision |
+|---|---|
+| **D9** | **Start is the most important agent and Start is Hermes.** v1 shape: 1 Hermes as Start + orchestrator + 4 Pi corners, **all behind one desk-adapter**. Retires D1's *"dsh-hosted"* clause; *"behind one adapter"* survives and becomes load-bearing. Closes hold H-B2-1. |
+| **D10** | **The desks are personality — each is the membrane at a different angle; the membrane is one.** A desk has an angle, never its own doctrine, truth or authority. Personality is **cultivated**, never authored once. |
+| **D11** | **A seed is not addressed — it is left observable.** Reception = observability + traceability (integrity of the formation trail). Then a **handshake either side may open, ending in departure**. Two trails, never merged: formation trail = field, gate ledger = chain. |
+| **D12** | **Success in each phase is contextual DECODING of context to language and COMPILATION of the output `xyzab`.** Achieved by optimisation at the agent level: instructions, skills, tools. |
+| **D13** | **The descent: "never and always."** Only infinity breathes infinity; manifestation is inspired by it. Drill down when the essence did not come; the human gives the challenge and the AI runs the loops, bounded by resources; the traversal order is free to the algorithm; the vector is a **quantum jump**, and the machine must plan for it. |
+| **D8** | **Answered in general:** there is no end of a run in a fractal — it returns as `∞0′`. Integrity is whether the question stays open and the field keeps making propagating fruits. The specific indication remains his to name. |
+
+Also his word, 2026-08-27: **the orchestrator may have its own freedom to some extent — including its own
+greeting.** So S's greeting is partly the machine's own voice, within the same lawful surface (banner,
+equation, invitation).
