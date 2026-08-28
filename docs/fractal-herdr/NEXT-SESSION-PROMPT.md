@@ -26,10 +26,12 @@ prompt itself. Keep this short enough to read on an iPad; everything else is in 
 > *(And the orchestrator's own greeting is yours to write, within the same lawful surface — banner,
 > equation, invitation. That was my word: let it have its own freedom to some extent.)*
 >
-> **② The Decoder and the Compiler.** Since success in each phase is contextual **decoding** of context to
-> language and **compilation** of the output `xyzab`, you need the two documents Appendix D was compiled
-> from and which you do not hold: **`D1_The_Decoder.md`** (its rules R1–R13) and **`C1_The_Compiler.md`**.
-> Are they on 5qln.com, in a repo, or shall I paste them? →
+> **② The Decoder and the Compiler — RESOLVED by the machine, nothing needed from him.** The codex page
+> *is* the whole Constitutional Codex: Part I `L1 The Language`, **Part II `D1 The Decoder` (§2.1–2.9)**,
+> **Part III `C1 The Compiler` (§3.1–3.6, including §3.4 Decoder Rules in Checkable Form and §3.5 the
+> Validation Protocol)**, plus Appendices A–C and all thirteen R-rules. Held locally with a recorded sha and
+> deposited to canon. Appendix C names six deeper cross-references (covenant · symbol glossary · fractal map ·
+> decoder skill · anti-corruption · agent initiation) — **the machine fetches those itself.**
 >
 > **③ Anything I want to change.** Everything you built sits on an invitation to change — say if the shape
 > below is not what I meant:
