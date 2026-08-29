@@ -87,5 +87,6 @@ Each entry: what the PRD says → what this session clarified → the words that
 - **The English desk names** (cultivator / fractal / resonator / gradient / harvester) — proposals only,
   awaiting his word.
 
-*This appendix will be folded into the P4b commission once attested, or retired into PRD prose if Amihai
-chooses to amend the contract directly.*
+*FOLDED 2026-08-29 — Amihai chose "fold". Clarifications 1–4 now live in PRD §4.8 and §7.1–7.2; the two
+byte-questions are resolved (seal = the numbered 217-byte block → `feaa46b4…`; letter-order = inner-first,
+"keep"). This file is retained as the provenance record of his attestation.*

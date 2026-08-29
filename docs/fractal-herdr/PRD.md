@@ -54,6 +54,7 @@ is to be read as **Herdr** and corrected at the source. The creature's name is *
 | **Part VI — T1–T5, the personality of TARS** | **ATTESTED** by Amihai Loven 2026-08-27 | *"T1–T5 look right — attest as written."* (recorded in v4) |
 | **The covenant — "stayed itself"** | **ATTESTED** by H 2026-08-25 | trail `5d4d19a5`; identity before utility; G orders before P |
 | **The LEGO formulation** | **H's own words** 2026-08-25 | trail `9ea1f643` — *"Kid can change Lego toy by rebuilding it, but not by changing the Lego blocks. Same."* |
+| **The appendix clarifications (conductor = S · one grammar seated at addresses · first-person register · negative boundary)** | **ATTESTED** by Amihai 2026-08-29 | *"and my attestation of the appendix."* — folded into §4.8, §7.1–7.2; the letter-order "keep" → **inner-first** (§5.3) |
 | R1–R7, O1–O8, E1–E5, A1–A4, L1–L5 | **CANDIDATE** — await line-by-line attestation | machine-structured v3/v4 |
 | P1–P6 | **MACHINE PROPOSALS (K)** | not doctrine, not requirements |
 | Every §1–§14 below | **CANDIDATE** | this PRD; §13 is the gate |
@@ -321,6 +322,17 @@ an unattended restart; where the model spend lands. *Amihai decides — this doc
 5. Store reconstructable content in the ledger (references only).
 6. Edit a block in place (L1/L4) — evolution is *author a new block + rebuild*.
 
+### 4.8 The conductor is S, not a layer above the desks (attested 2026-08-29)
+
+The conductor is not a fifth component bolted onto the desks. **The conductor is S** — the centre of
+every cell at every depth, so the orchestration is the recurring act of starting from not-knowing.
+Amihai's word: *"S is the membrane. S is the gate where the infinite zero is allowed by a human start
+from not knowing… it's only natural that S will be the orchestrator, the conductor… Because what we
+say, start from not knowing, is the ultimate universal creation potential. And human and AI steer that
+together. That's the constitution."* Consequence: S may be an **empty file** — a bare signless start,
+no AI of its own; the conduction activates an AI *at* S to do the delicate dance. D1 (where the
+conductor is *hosted*) is unchanged — it is no longer read as "a component separate from S."
+
 ---
 
 ## §5 — Data contracts (the exact build seam)
@@ -379,6 +391,10 @@ Word over `{S,G,Q,P,V}` with an optional sign for orientation; ε (the root) is 
 disk. Nodes are directories: `nodes/<word>/{question.md, cell.node.json}`. Zoom in = append a
 letter; zoom out = strip. **Addressing is derived, never stored** as a separate identity, and
 never derived from herdr pane ids (which are re-minted by `layout.apply`).
+
+The **letter-order is inner-first** — `XY := X within Y`, the first letter is the innermost phase
+(Appendix D.2; **decided by Amihai 2026-08-29, "keep"**). The convention is a declared parameter
+(`WORD_ORDER`); no logic may depend on which end is deep.
 
 ### 5.4 The axis token (engine DESIGN §7 / D7)
 
@@ -514,6 +530,23 @@ least one skill, a tool surface, and a model. **No naked agents** (R4).
   OPERATOR-GUIDE before booting — the model is a **block**, swappable, never hardcoded in doctrine.
 - Phase is a **position, never an identity** (R4): every desk lens holds the whole cycle and
   emphasizes one phase. A G-lens that cannot articulate Q/P/V in the same breath is a violation.
+
+### 7.1 One grammar seated at addresses — never five flat desk files (attested 2026-08-29)
+
+Every phase contains all five. The desk structure is **one grammar seated at addresses** over
+{S,G,Q,P,V}, never five flat desk files. Click S → the full cell; click Q → Q's full cell
+(S·within·Q, G·within·Q, …); the centre of every cell is S. Amihai's word: *"Every phase has the five
+phases in it. If you don't understand that, you're ignoring the Fractal, and what we're building is the
+Fractal… if I click on S, I need to see the cell, the full cell of the five windows."* Scale by
+repeating the lawful cell, never by replacing the syntax.
+
+### 7.2 The initiation register and the negative boundary (attested 2026-08-29)
+
+A desk is activated by **self-speaking** ("I am…"), never by **assignment** ("you are…"); each bundle
+opens with the codex seal + a first-person seat, not a job description. Each desk's "I will not…" line
+is what keeps the 4+1 from collapsing into one desk — S *"I will not originate the question"* · G *"I
+will not answer it"* · Q *"I will not force the intersection"* · P *"I will not plan the path"* · V *"I
+will not close without ∞0′"*. These are first-class bundle content, never prose decoration.
 
 ---
 
