@@ -54,7 +54,13 @@ live per-Pi memory-cost measurement awaits a constituted desk (H-B4-2); B″ com
 
 ## His word — recorded exactly as he gave it
 
-> **"attest it"** — Amihai Loven, 2026-08-29. (He endorsed the drafted sentence above as written.)
+> **"attest the unattended run — holds accumulate instead of stopping, tentative seeding never reaches
+> the podium, restart re-arms from the ledger alone, the budget holds as a held gate, twenty cycles with
+> zero keystrokes, and a readable trail while it runs. Verified PASS 18/18, zero corrections."**
+> — Amihai Loven, 2026-08-29.
+
+*(His fuller word, sent after the close; the earlier terse "attest it" endorsed this same sentence as
+drafted. Nothing else changed — the round stays closed and attested.)*
 
 ---
 
