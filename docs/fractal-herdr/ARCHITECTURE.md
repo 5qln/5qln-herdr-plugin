@@ -1,3 +1,11 @@
+---
+title: "Fractal Herdr — Architecture (the firmware ↔ soft-layer correspondence)"
+created: 2026-08-30
+entry_type: architecture
+status: "CANDIDATE — the machine wrote it; Amihai's to correct, rename, or extend. Status words are binding: ATTESTED needs a non-author execution record; DECIDED is his word; everything else is candidate."
+canon_home: "5qln/5qln-herdr-plugin — docs/fractal-herdr/ARCHITECTURE.md (canon; every other copy is a mirror)"
+---
+
 # ARCHITECTURE — the firmware ↔ soft-layer correspondence
 
 *Written 2026-08-30, after the soft-mode desks were constituted (S = conductor + x-articulator, all five desks Pi).*
