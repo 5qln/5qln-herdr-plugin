@@ -19,21 +19,28 @@ import { StringEnum } from "@earendil-works/pi-ai";
 import { invokeTool, loadTable } from "./src/cellctl.mjs";
 
 // -- the TypeBox schema for one table row (generated, never hand-set) ------
+//
+// TypeBox 1.x (what pi ships) has no fluent .description()/chainable
+// modifiers — descriptions are constructor options.  Each builder takes
+// the options object (or undefined) and passes it straight through, so
+// a description is declared where the type is declared.
 
 const KIND_BUILDERS = {
-  string: () => Type.String(),
-  integer: () => Type.Integer(),
-  boolean: () => Type.Boolean(),
+  string: (opts) => Type.String(opts),
+  integer: (opts) => Type.Integer(opts),
+  boolean: (opts) => Type.Boolean(opts),
 };
 
 function schemaFor(row) {
   const fields = {};
   for (const spec of row.params || []) {
-    let schema = KIND_BUILDERS[spec.kind]();
+    const opts = spec.description ? { description: spec.description } : undefined;
+    let schema;
     if (spec.kind === "enum") {
-      schema = StringEnum(spec.values);
+      schema = StringEnum(spec.values, opts);
+    } else {
+      schema = KIND_BUILDERS[spec.kind](opts);
     }
-    if (spec.description) schema = schema.description(spec.description);
     fields[spec.name] =
       spec.optional === false ? schema : Type.Optional(schema);
   }
