@@ -100,6 +100,36 @@ In the live run, the desks read `SYSTEM.md` **directly** — booted as standalon
 
 **The remaining seam, stated plainly:** wire the bridge's live desk adapter between the conductor and the desks, so the firmware's runtime config-read — not a hand-rolled boot script — is what seats each desk. Until then, this document describes the *architecture*, not a claim that the firmware is in the loop.
 
+## 4. Two interface decisions (2026-08-31, his word)
+
+1. **The podium becomes the membrane's formation train — a ledger index, not a dashboard.** The podium
+   panel "made no sense" as it was (his word, 2026-08-31): it is repurposed into the **smart log
+   attestation of the membrane**. It logs the five desks' (S/G/Q/P/V) total activity as a running ledger
+   — the **fractal formation train at membrane level**, human and AI activities interleaved as one chain:
+   his plant/attest/correct/name on the ∞0 side, the desks' decode/compile/gate/hold on the K side
+   (`plant → S's turn → gate x → … → attestation → fruit → ∞0′ → next plant`). It is the membrane's
+   attestation of the **flow** — if it does not do that, it has no reason to exist. The alternative — a
+   full dashboard for orchestration settings — is ruled out (too big a scope; agreed).
+
+   Two boundaries, both already drawn by the built firmware:
+   - **Events level, not the raw thread.** Each desk's turn is *one* event (what it decoded to, what gate
+     it produced) — never the agent's internal transcript. The raw stays inside each desk's pane; the
+     formation trail records events by design (D12: what the context decoded *to*, never the context
+     itself).
+   - **Read-only.** The seal holds — no machine write path to the centre. The podium *reads* the flow;
+     plant/attest stay human TTY acts.
+
+   **The use (critical):** the train is how we **learn which orchestration methods work and which don't**
+   — which pattern, sign-walk, or scenario word closed honestly, held honestly, returned a live ∞0′ — so
+   the winners get built as **new skills, tools, recipes** and fed back into the soft layer (D8, "output
+   is input," at the orchestration level: the soft layer grows *out of* the runs). The recording already
+   exists (trail events, holds, attested gates, ∞0′); the learning layer on top of it is **not yet
+   built**. The visual rendering is **open** — pending Amihai's herdr GUI / look-and-feel research (in
+   progress, 2026-08-31).
+2. **One cell, always.** Zoom (descent) never spawns a pane: the seats re-form as the child cell — the same
+   4+1, tagged by address, coloured by depth. Descend by rename, never by `pane split`. (This names the
+   cause of the 2026-08-30 descent's window multiplication: spawned panes, not a navigated cell.)
+
 ---
 
 *This record is CANDIDATE — the machine wrote it, Amihai's to correct, rename, or extend.*
