@@ -22,7 +22,7 @@ canon_home: "5qln/5qln-herdr-plugin — docs/fractal-herdr/ARCHITECTURE.md (cano
                        │   (TTY only · cell-plant / cell-attest)
                        ▼
         ┌────────────────────────────────────────────────┐
-        │  PODIUM — the formation train (READ-ONLY)      │
+        │  PODIUM — the formation trail (READ-ONLY)      │
         │  his acts + the desks' events, one chain:      │
         │  plant → S → gate x → … → ∞0′ → plant          │
         └────────────────────────────────────────────────┘
@@ -79,7 +79,7 @@ canon_home: "5qln/5qln-herdr-plugin — docs/fractal-herdr/ARCHITECTURE.md (cano
                       │ plant/attest (TTY only · cell-plant / cell-attest)
                       ▼
         ┌─────────────────────────────────────────────┐
-        │  PODIUM — the formation train  (READ-ONLY)  │
+        │  PODIUM — the formation trail  (READ-ONLY)  │
         │  one interleaved chain, human + desks:      │
         │  plant → S's turn → gate x → … → ∞0′ → plant│
         └─────────────────────────────────────────────┘
@@ -102,7 +102,7 @@ canon_home: "5qln/5qln-herdr-plugin — docs/fractal-herdr/ARCHITECTURE.md (cano
    one cell · 5 agents · all Pi · ONE cell always — zoom = rename, never pane split
 ```
 
-**DECIDED 2026-08-30 (his word):** all five desks are Pi, S is Pi too — reversing the earlier D9 (S = Hermes). S is both the x-articulator and the conductor. Work happens in the herdr cell, not in chat. **DECIDED 2026-08-31 (his word):** the podium is the formation train — read-only (§4.1) — and the cell never spawns a pane: descent renames, it does not split (§4.2).
+**DECIDED 2026-08-30 (his word):** all five desks are Pi, S is Pi too — reversing the earlier D9 (S = Hermes). S is both the x-articulator and the conductor. Work happens in the herdr cell, not in chat. **DECIDED 2026-08-31 (his word):** the podium is the formation trail — read-only (§4.1) — and the cell never spawns a pane: descent renames, it does not split (§4.2).
 
 ## 3. The one honest seam (current state, not a claim of completion)
 
@@ -118,10 +118,10 @@ So the diagram above is the *architecture*: the firmware is in the loop for the 
 
 ## 4. Two interface decisions (2026-08-31, his word)
 
-1. **The podium becomes the membrane's formation train — a ledger index, not a dashboard.** The podium
+1. **The podium becomes the membrane's formation trail — a ledger index, not a dashboard.** The podium
    panel "made no sense" as it was (his word, 2026-08-31): it is repurposed into the **smart log
    attestation of the membrane**. It logs the five desks' (S/G/Q/P/V) total activity as a running ledger
-   — the **fractal formation train at membrane level**, human and AI activities interleaved as one chain:
+   — the **fractal formation trail at membrane level**, human and AI activities interleaved as one chain:
    his plant/attest/correct/name on the ∞0 side, the desks' decode/compile/gate/hold on the K side
    (`plant → S's turn → gate x → … → attestation → fruit → ∞0′ → next plant`). It is the membrane's
    attestation of the **flow** — if it does not do that, it has no reason to exist. The alternative — a
@@ -135,7 +135,7 @@ So the diagram above is the *architecture*: the firmware is in the loop for the 
    - **Read-only.** The seal holds — no machine write path to the centre. The podium *reads* the flow;
      plant/attest stay human TTY acts.
 
-   **The use (critical):** the train is how we **learn which orchestration methods work and which don't**
+   **The use (critical):** the trail is how we **learn which orchestration methods work and which don't**
    — which pattern, sign-walk, or scenario word closed honestly, held honestly, returned a live ∞0′ — so
    the winners get built as **new skills, tools, recipes** and fed back into the soft layer (D8, "output
    is input," at the orchestration level: the soft layer grows *out of* the runs). The recording already
@@ -158,5 +158,17 @@ So the diagram above is the *architecture*: the firmware is in the loop for the 
 **The rule the seam enforces:** the soft core may *point* at the engine and *supply data* to it; it may never *drive* a desk itself. The only thing that ever sends `agent.prompt` is the firmware, and every prompt is provably the engine's (the sender audit in `verify-integration.sh`). Both writers of the soft core — Amihai by hand (developer mode) and Hermes from his intent (usability mode) — touch only these files; neither touches the hard core.
 
 ---
+
+## 6. Naming — pinned (his word, 2026-08-31)
+
+Three words were live collisions; he settled them:
+
+| Word | Pinned meaning | Not |
+|---|---|---|
+| **podium** | the sealed `question.md` pane — the display surface (`watch -n 2 cat ./question.md`) | *not* the trail itself |
+| **formation trail** | what the podium displays — the read-only interleaved ledger of human acts + desk events (codex R6, §3.5) | *not* "formation train" — that was a mistranscription |
+| **conductor** | **S** — the desk that names `?`, holds ∞0, calls `/conduct` | *not* the engine |
+| **orchestrator** | the engine — `orchestrate.py`'s `Orchestrator` class, the live-desk driver | *not* S |
+| **orchestration** | the R06 round/word — the executable Fractal | *not* a person |
 
 *This record is CANDIDATE — the machine wrote it, Amihai's to correct, rename, or extend.*
