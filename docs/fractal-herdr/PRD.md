@@ -55,6 +55,7 @@ is to be read as **Herdr** and corrected at the source. The creature's name is *
 | **The covenant — "stayed itself"** | **ATTESTED** by H 2026-08-25 | trail `5d4d19a5`; identity before utility; G orders before P |
 | **The LEGO formulation** | **H's own words** 2026-08-25 | trail `9ea1f643` — *"Kid can change Lego toy by rebuilding it, but not by changing the Lego blocks. Same."* |
 | **The appendix clarifications (conductor = S · one grammar seated at addresses · first-person register · negative boundary)** | **ATTESTED** by Amihai 2026-08-29 | *"and my attestation of the appendix."* — folded into §4.8, §7.1–7.2; the letter-order "keep" → **inner-first** (§5.3) |
+| **The build rounds — B0–B6 · the Grammar · the bridge · R06 Orchestration · R07 the integration (the seam)** | **ATTESTED** as **product acts** (each by Amihai's word, each resting on a non-author execution record) — never contract attestations (§0.2) | full round ledger + canon shas in `STATE.md`; **R07 the integration attested 2026-08-31 — *"attest it"*** — canon `rounds/R07-integration/` |
 | R1–R7, O1–O8, E1–E5, A1–A4, L1–L5 | **CANDIDATE** — await line-by-line attestation | machine-structured v3/v4 |
 | P1–P6 | **MACHINE PROPOSALS (K)** | not doctrine, not requirements |
 | Every §1–§14 below | **CANDIDATE** | this PRD; §13 is the gate |
