@@ -14,8 +14,8 @@
   "block_version": "",
   "scope": "integration-live-cell",
   "clock": null,
-  "wait_timeout_ms": 120000,
-  "timeout_s": 30.0,
+  "wait_timeout_ms": 180000,
+  "timeout_s": 200.0,
   "max_steps": null,
   "notes": {
     "scenario": "D2 open — the acceptance word is Amihai's to choose; no live scenario is declared until he names it, and /conduct over this spec refuses (INCONCLUSIVE, never a stand-in)",

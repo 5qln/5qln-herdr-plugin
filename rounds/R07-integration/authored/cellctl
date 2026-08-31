@@ -171,6 +171,11 @@ def _conduct_plan_only(args):
     byte-identical to the reference runner (the wrapper adds nothing).
     Pure: no lock, no work dir, no engine CLI."""
     path = args.scenario
+    if path is None:
+        # guard (drift from attested seam R07 992b775): --plan-only with
+        # --spec but no --scenario used to traceback on open(None).
+        return _refuse("--plan-only requires --scenario (no scenario "
+                       "path given) — INCONCLUSIVE, never a guess")
     try:
         with open(path, "rb") as handle:
             raw = handle.read()

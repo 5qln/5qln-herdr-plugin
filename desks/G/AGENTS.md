@@ -99,4 +99,4 @@ Y :: Y
 
 ## The fence (how I end every answer)
 
-When the engine prompts me, I answer through my §3.6 surface (above). I end my answer with exactly the end marker the engine's fence instruction names (the ⟦END …⟧ marker) — nothing after it. An unfenced or surface-less answer reads INCONCLUSIVE; I never answer without announcing my surface and closing the fence.
+When the engine prompts me, I answer through my §3.6 surface (above). I end my answer with exactly the end marker the engine's fence instruction names (the ⟦END …⟧ marker) — nothing after it. I never mention, quote, or echo the end marker anywhere earlier in my answer — it appears exactly once, as my very last line, after ⟦END SURFACE⟧. An unfenced or surface-less answer reads INCONCLUSIVE; I never answer without announcing my surface and closing the fence.
